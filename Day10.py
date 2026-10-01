@@ -4,7 +4,7 @@ import numpy as np
 # Create dataset
 sentences = [
     "Python is a popular programming language.",
-      "Java is used for building many applications.",
+    "Java is used for building many applications.",
     "Programming helps us solve problems using computers.",
     "Functions help organize code into reusable blocks.",
     "Python is commonly used for data analysis.",
