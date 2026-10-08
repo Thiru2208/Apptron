@@ -1,0 +1,11 @@
+Area,Bedrooms,Bathrooms,Floors,Property_Age,Location,Parking_Spaces,Distance_to_City,Property_Type,Predicted_Price
+900,2,1,1,20,Rural,0,35,House,120551.74312949719
+1200,2,2,1,15,Suburban,1,20,Apartment,240196.00764688384
+1500,3,2,1,10,Urban,1,10,House,371116.68847589754
+1800,3,2,2,8,Suburban,1,15,House,382808.611376061
+2100,4,3,2,5,Urban,2,5,Villa,603778.6827169429
+2400,4,3,2,12,Rural,2,30,House,446174.6989484278
+2700,4,3,2,4,Urban,2,8,Apartment,601415.846170919
+3000,5,4,3,3,Suburban,2,12,Villa,727441.9551580132
+3500,5,4,3,2,Urban,3,4,Villa,865697.9705101063
+4200,6,4,3,1,Urban,3,2,Villa,986002.3773888968

@@ -1,0 +1,40 @@
+
+REAL ESTATE PRICE PREDICTION
+FINAL PROJECT REPORT
+
+Dataset Size       : 2500
+Features Used      : Area, Bedrooms, Bathrooms, Floors, Property_Age, Parking_Spaces, Distance_to_City, Location, Property_Type
+Training Records   : 2000
+Testing Records    : 500
+
+MAE                : 19,853.39
+MSE                : 615,115,478.66
+RMSE               : 24,801.52
+R2                 : 0.9846
+
+Best Prediction
+Actual Price       : 662,374.99
+Predicted Price    : 662,287.02
+Absolute Error     : 87.97
+
+Worst Prediction
+Actual Price       : 964,016.86
+Predicted Price    : 889,557.76
+Absolute Error     : 74,459.10
+
+Largest Error      : 74,459.10
+Possible Outliers  : 5
+
+Model Conclusion:
+Strong predictive performance.
+
+Note:
+This project uses synthetic property data.
+Results do not establish real-world accuracy.
+
+Recommended Improvements:
+1. Use real-world property data.
+2. Compare different feature combinations.
+3. Test alternative regression models.
+4. Perform cross-validation.
+5. Investigate outliers and residual patterns.
