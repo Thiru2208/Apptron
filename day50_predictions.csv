@@ -1,0 +1,11 @@
+Age,Monthly_Spending,Website_Visits,Time_on_Website,Previous_Purchases,Predicted_Purchase
+22,5000,5,15,1,No
+35,25000,18,75,10,Yes
+45,40000,25,100,15,Yes
+28,12000,8,30,3,No
+50,45000,28,110,18,Yes
+31,18000,12,45,5,No
+40,30000,20,85,12,Yes
+26,8000,6,20,2,No
+55,35000,22,90,14,Yes
+38,22000,16,65,9,Yes
