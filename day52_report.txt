@@ -1,0 +1,31 @@
+
+DAY 52 - KNN CUSTOMER PURCHASE PREDICTION
+
+Dataset Type: Synthetic
+Total Records: 1200
+Training Samples: 960
+Testing Samples: 240
+
+Algorithm: K-Nearest Neighbors
+Scaling Method: StandardScaler
+Cross-Validation: Stratified 5-Fold
+Best K: 15
+
+FINAL RESULTS
+Accuracy: 0.7583
+Precision: 0.7627
+Recall: 0.7500
+F1 Score: 0.7563
+
+LIMITATIONS
+1. The dataset is synthetic, not real customer data.
+2. Real customer behaviour may differ from generated patterns.
+3. KNN is sensitive to feature scaling.
+4. Prediction performance may change with new data.
+5. KNN prediction can be slow for very large datasets.
+
+CONCLUSION
+The KNN model predicts customer purchase outcomes using
+customer demographic and website interaction features.
+The best K was selected using cross-validation on training
+data, and final performance was measured on unseen test data.

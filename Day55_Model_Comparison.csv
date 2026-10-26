@@ -1,0 +1,4 @@
+Model,Accuracy,Precision,Recall,F1-Score,CV Recall,Best Parameters
+Logistic Regression,0.995,0.99,1.0,0.995,0.9951,{'model__C': 1}
+KNN,0.945,0.94,0.9495,0.9447,0.9603,"{'model__n_neighbors': 3, 'model__weights': 'uniform'}"
+Decision Tree,0.91,0.9175,0.899,0.9082,0.8785,"{'model__max_depth': 7, 'model__min_samples_split': 2}"

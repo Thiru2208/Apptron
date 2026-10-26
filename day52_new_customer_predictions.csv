@@ -1,0 +1,11 @@
+Age,Monthly_Income,Website_Visits,Time_Spent,Previous_Purchases,Product_Views,Predicted_Purchase,Purchase_Probability,Result
+22,35000,5,10,0,6,0,0.067,No Purchase
+30,85000,18,65,8,25,0,0.267,No Purchase
+45,120000,25,95,15,40,1,1.0,Purchase
+19,28000,3,8,0,4,0,0.067,No Purchase
+35,95000,22,80,12,35,1,0.867,Purchase
+55,150000,10,35,4,15,0,0.133,No Purchase
+27,65000,16,55,7,22,0,0.2,No Purchase
+40,110000,28,110,18,45,1,1.0,Purchase
+24,45000,7,20,2,10,0,0.067,No Purchase
+50,135000,20,75,11,32,1,0.867,Purchase
