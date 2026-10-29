@@ -1,0 +1,24 @@
+DAY 56 - MODEL RESULTS ANALYSIS
+
+MODEL RESULTS
+              Model  Train_Accuracy  Test_Accuracy  Precision_Fail  Recall_Fail  F1_Fail  Overfitting_Gap  Prediction_Time  Missed_Failures  False_Fail_Alerts
+Logistic Regression          0.8300          0.785          0.7500       0.7586   0.7543           0.0450           0.0026               21                 22
+      Decision Tree          0.8712          0.715          0.6630       0.7011   0.6816           0.1562           0.0015               26                 31
+                KNN          0.8600          0.760          0.7191       0.7356   0.7273           0.1000           0.0063               23                 25
+
+FIVE OBSERVATIONS
+1. Logistic Regression achieved the highest test accuracy.
+2. Logistic Regression achieved the highest recall for failing students.
+3. Logistic Regression achieved the highest F1-score for the Fail class.
+4. Decision Tree showed the largest training-testing accuracy gap.
+5. Logistic Regression is recommended because it prioritizes detecting students who may fail.
+
+RECOMMENDED MODEL
+Model: Logistic Regression
+Fail Recall: 0.7586
+Fail F1-Score: 0.7543
+Test Accuracy: 0.7850
+Missed Failures: 21
+
+Reason: High recall for the Fail class helps identify
+students at risk of failing while minimizing missed failures.
