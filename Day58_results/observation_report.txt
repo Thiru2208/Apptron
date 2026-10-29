@@ -1,0 +1,56 @@
+
+DAY 58 - CUSTOMER DATA EXPLORATION REPORT
+
+Dataset Information
+-------------------
+Total Customers: 250
+Total Columns: 4
+Missing Values: 0
+Duplicate Records: 0
+
+Summary Statistics
+------------------
+          Age  Annual_Income  Spending_Score
+mean    44.24         83.976          49.304
+median  45.00         83.000          50.000
+min     18.00         15.000           1.000
+max     70.00        150.000         100.000
+
+Customer Patterns
+-----------------
+1. High income and high spending customers:
+   31
+
+2. High income and low spending customers:
+   35
+
+3. Low income and high spending customers:
+   17
+
+Unusual Records
+---------------
+Number of IQR outliers: 0
+
+Selected Clustering Features
+----------------------------
+Age
+Annual Income
+Spending Score
+
+Customer ID is excluded because it is only
+a unique identifier and does not represent
+customer behavior or similarity.
+
+Conclusion
+----------
+The dataset was explored and cleaned successfully.
+
+Three histograms and one scatter plot were created.
+
+The selected numerical features are suitable
+for further clustering analysis after scaling.
+
+Note:
+Synthetic data was used for this exercise.
+The customer patterns are illustrative and
+may not represent real customer behavior.
