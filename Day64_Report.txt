@@ -1,0 +1,39 @@
+DAY 64 - MULTI-FEATURE CLUSTER ANALYSIS
+
+Total Customers: 200
+Number of Clusters: 5
+
+Cluster Counts:
+Cluster
+0    45
+1    51
+2    34
+3    44
+4    26
+
+Cluster Feature Averages:
+           Age  Annual Income (k$)  Spending Score (1-100)
+Cluster                                                   
+0        32.96               85.82                   21.24
+1        49.18              120.57                   65.00
+2        54.53               45.12                   70.00
+3        26.75               60.32                   70.45
+4        49.69               36.23                   17.65
+
+Feature Separation Scores:
+Annual Income (k$)        0.686
+Age                       0.604
+Spending Score (1-100)    0.533
+
+Observations:
+1. The dataset contains 200 customers.
+2. Customers are divided into 5 clusters.
+3. The largest cluster is 1.
+4. The strongest separating feature is Annual Income (k$).
+5. The weakest separating feature is Spending Score (1-100).
+
+Correlation Matrix:
+                         Age  Annual Income (k$)  Spending Score (1-100)
+Age                     1.00                0.05                    0.03
+Annual Income (k$)      0.05                1.00                    0.11
+Spending Score (1-100)  0.03                0.11                    1.00
