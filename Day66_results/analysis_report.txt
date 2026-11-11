@@ -1,0 +1,21 @@
+Day 66 - Advanced Cluster Explorer
+
+Selected Features: Age, Annual Income (k$), Spending Score (1-100), Purchase Frequency
+PC1 Explained Variance: 29.55%
+PC2 Explained Variance: 25.56%
+Total Explained Variance: 55.11%
+
+Sample Features Added: Purchase Frequency
+
+Five Observations:
+1. The dataset contains 200 customers in 5 clusters.
+2. Cluster 0 has the highest number of customers (48).
+3. Cluster 3 has the lowest number of customers (32).
+4. PC1 explains 29.55% and PC2 explains 25.56% of total variance.
+5. Cluster 3 has the highest average spending score (73.09).
+
+Comparison:
+The original scatter plot displays Annual Income and Spending Score directly. The PCA scatter plot combines all selected numerical features into two components. PCA helps visualize patterns across multiple features.
+
+PCA Limitation:
+PCA reduces the number of dimensions, so some original information may be lost. Clusters may overlap in the 2D PCA plot even when they are separated in the original feature space.
